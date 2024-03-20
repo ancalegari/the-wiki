@@ -53,3 +53,24 @@ p {
     font-weight: 400;
     line-height: normal;
 }
+#secao-orsamento{
+    height: 100vh;
+    padding: 3rem;
+}
+#secao-orsamento h2{
+    font-family: var(--font-title);
+}
+#secao-orsamento form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.campo{flex-direction: column;}
+.linha{grid-column: 1/3;}
+imput[type=radio],
+imput[type=checkbox],
+imput[type=range]{
+    accent-color: var(--color-green);
+}

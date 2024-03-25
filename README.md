@@ -6,7 +6,7 @@
   - [x]html
   - [x]css
 - [ ]presentation
-- [ ]specimes
+- [ ]featured books
 - [ ]research
 - [ ]about us
 - [ ]our timeline

@@ -13,7 +13,13 @@ body {
     --color-gold: #FFDB5A;
     --color-green: #1C361C;
 }
+.golden_text{color: var(--color-gold);
+    font-size: 20px;
+    font-family: EB Garamond;
+    font-weight: 400;
+    word-wrap: break-word
 
+}
 .fancyhr {
     border-color: var(--color-green);
 }
@@ -26,16 +32,7 @@ body {
     margin: 20px auto; /* Centering the box horizontally */
 }
 
-header::before {
-    content: "";
-    height: 100vh;
-    width: 100vw;
-    display: block;
-    position: absolute;
-    z-index: -10;
-}
-
-/* Updated font-family definitions */
+/* Updated fo}nt-family definitions */
 h1 {
     color: var(--color-black);
     font-family: "EB Garamond", serif; /* Using the specified font family */
@@ -53,6 +50,7 @@ p {
     font-weight: 400;
     line-height: normal;
 }
+
 #secao-orsamento{
     height: 100vh;
     padding: 3rem;
